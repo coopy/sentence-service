@@ -1,7 +1,7 @@
 {
   "name": "sentence-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get a random sentence",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +9,18 @@
   },
   "keywords": [],
   "author": "Per Nilsson <per@sproutlab.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
     "forever": "^0.15.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopy/sentence-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coopy/sentence-service/issues"
+  },
+  "homepage": "https://github.com/coopy/sentence-service#readme"
 }
